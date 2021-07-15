@@ -24,3 +24,12 @@
     }
   }
 }
+
+@media screen and(max-width: 800px) {
+  .option {
+    padding: 10px !important;
+  }
+  .logo-container {
+    padding: 15px !important;
+  }
+}

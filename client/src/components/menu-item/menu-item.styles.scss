@@ -66,3 +66,15 @@
     }
   }
 }
+
+@media screen and(max-width: 800px) {
+  .menu-item {
+    height: 200px !important;
+  }
+}
+
+@media screen and(max-width: 600px) {
+  .content {
+    padding: 5px !important;
+  }
+}
