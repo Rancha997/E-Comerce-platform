@@ -17,3 +17,13 @@
     }
   }
 }
+
+@media only screen and (max-width: 800px) {
+  .items {
+    grid-template-columns: 1fr !important;
+  }
+  .collection-item {
+    margin: 0px 30px 10px 0px;
+    width: 100%;
+  }
+}

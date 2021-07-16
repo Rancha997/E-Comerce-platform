@@ -40,3 +40,19 @@
     cursor: pointer;
   }
 }
+@media only screen and (max-width: 650px) {
+  .checkout-item {
+    flex-direction: column;
+  }
+  .image-container {
+    width: unset !important;
+  }
+  .name,
+  .price,
+  .quantity {
+    width: unset !important;
+  }
+  .remove-button {
+    padding: 0 !important;
+  }
+}
